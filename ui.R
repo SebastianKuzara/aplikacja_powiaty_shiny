@@ -1,4 +1,4 @@
-for(package in (c("shiny", "dplyr", "leaflet", "DT", "plotly"))) {
+for(package in (c("shiny", "leaflet", "DT", "plotly"))) {
   if(!require(package, character.only = TRUE, quietly = TRUE)) {
     install.packages(package)
     library(package, character.only = TRUE)
@@ -8,7 +8,7 @@ for(package in (c("shiny", "dplyr", "leaflet", "DT", "plotly"))) {
 
 
 load("./data/kody.woj.Rdata")
-kody_woj <- arrange(kody_woj, Kod, Wojewodztwo)
+kody_woj <- kody_woj[order(kody_woj$Kod),]
 
 load("./data/dane.Rdata")
 
