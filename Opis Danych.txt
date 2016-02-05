@@ -1,0 +1,9 @@
+Dane wykorzystane w aplikacji pochodz¹ z Banku Danych Lokalnych G³ównego Urzêdu Statystycznego - www.stat.gov.pl
+
+Wyjaœnienie skrótów:
+
+-"bezr" - stopa bezrobocia rejestrowanego ogó³em;
+-"wyn" - przeciêtne miesiêczne wynagrodzenia brutto ogó³em
+-"firmy" - podmioty wpisane do rejestru regon na 10 tys. mieszkañców
+
+Dane dla ww s¹ prezentowaen w ujêciu rocznym i dotycz¹ lat 2004-2014.
